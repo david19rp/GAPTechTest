@@ -1,0 +1,103 @@
+        .main {
+            background-color: $body-secondary;
+            border-radius: 2px;
+            .main__header {
+                font-family: $font-title;
+                color: $font-title-color;
+                font-size: $font-title-size;
+                margin-top: 2%;
+                margin-bottom: 1.2%;
+            }
+            .main__map {
+                background-color: $body-background;
+                border-radius: 2px;
+                .main__map_h3-header {
+                    font-family: $font-title;
+                    color: $font-secondary-title-color-main;
+                    font-size: 0.875em;
+                    font-weight: bold;
+                }
+            }
+            .main__hardware {
+                .main__hardware_title {
+                    font-size: $font-title-size-main-hardware;
+                    font-family: $font-title;
+                    color: $font-secondary-title-color-main;
+                }
+                .main__hardware_box {
+                    .main__hardware_box-h4-header-bold {
+                        font-size: $font-title-main-hardware-box;
+                        font-weight: bold;
+                        color: $font-third-title-color;
+                    }
+                    .main__hardware_box-h4-header {
+                        font-size: $font-title-main-hardware-box-regular;
+                        color: $font-third-title-color-light;
+                    }
+                    .main__hardware_box_border {
+                        border-radius: 2px;
+                        border-left: 1px solid #d4d4d4;
+                        border-bottom: 1px solid #d4d4d4;
+                        border-top: 1px solid #d4d4d4;
+                        background-color: $body-background;
+                    }
+                    .main__hardware_box_border_mobile {
+                        border-radius: 2px;
+                        border-left: 1px solid #d4d4d4;
+                        border-right: 1px solid #d4d4d4;
+                        border-top: 1px solid #d4d4d4;
+                        background-color: $body-background;
+                    }
+                    .main__hardware_box_border_right {
+                        border-radius: 2px;
+                        border-right: 1px solid #d4d4d4;
+                        border-top: 1px solid #d4d4d4;
+                        border-bottom: 1px solid #d4d4d4;
+                        background-color: $body-background;
+                    }
+                    .main__hardware_box_border_right_mobile {
+                        border-radius: 2px;
+                        border-right: 1px solid #d4d4d4;
+                        border-left: 1px solid #d4d4d4;
+                        border-bottom: 1px solid #d4d4d4;
+                        background-color: $body-background;
+                    }
+                }
+                @include media-breakpoint-between(md, xl) {
+                    z-index: -1;
+                }
+            }
+            .main__info {
+                background-color: $body-background;
+                .main__info_header {
+                    color: $font-title-color-main-info;
+                    font-size: $font-title-main-info;
+                }
+                .main__info_paragraph {
+                    font-family: $font-main;
+                    font-style: italic;
+                    font-size: $font-paragraph;
+                    color: $font-paragraph-color;
+                }
+                .main__info_paragraph_regular {
+                    font-family: $font-main;
+                    font-size: $font-paragraph-regular;
+                    color: $font-secondary-title-color-main;
+                }
+                .main__info_anchor_underline {
+                    text-decoration: underline;
+                    font-size: $font-paragraph;
+                    color: $font-title-color-main-info;
+                }
+                .main__info_botton {
+                    background-color: $button-background;
+                    span.main__info_span_white {
+                        color: $font-color-span;
+                        font-size: 12px !important;
+                    }
+                    .main__info_anchor_without_underline {
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
