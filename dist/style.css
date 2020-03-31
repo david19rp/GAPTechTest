@@ -7215,7 +7215,9 @@ h1.intro__header {
     .main .main__hardware {
       z-index: -1; } }
   .main .main__info {
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid #d4d4d4; }
     .main .main__info .main__info_header {
       color: #359ac0;
       font-size: 1.125em; }
