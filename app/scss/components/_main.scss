@@ -69,6 +69,8 @@
             }
             .main__info {
                 background-color: $body-background;
+                border-radius: 2px;
+                border: 1px solid $border;
                 .main__info_header {
                     color: $font-title-color-main-info;
                     font-size: $font-title-main-info;
