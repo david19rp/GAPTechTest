@@ -1,4 +1,4 @@
-Steps to install te repo:
+Steps to install the repo:
 
  1. clone the repo.
  2. once is install in the terminal type: npm i

@@ -11,6 +11,7 @@
             .main__map {
                 background-color: $body-background;
                 border-radius: 2px;
+                border: 1px solid $border;
                 .main__map_h3-header {
                     font-family: $font-title;
                     color: $font-secondary-title-color-main;
