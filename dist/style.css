@@ -7236,6 +7236,13 @@ h1.intro__header {
       background-color: #fdaf1e; }
       .main .main__info .main__info_botton span.main__info_span_white {
         color: #ffffff;
-        font-size: 12px !important; }
+        font-size: 11px !important; }
       .main .main__info .main__info_botton .main__info_anchor_without_underline {
         text-decoration: none !important; }
+    .main .main__info .main__infor_span_orange {
+      font-size: 11px;
+      font-family: "Open Sans", sans-serif;
+      color: #fdaf1e; }
+
+.main__info_mt {
+  margin-top: -18px; }
